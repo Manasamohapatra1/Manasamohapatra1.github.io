@@ -31,8 +31,8 @@ h1 {
    }
 
 p {
-  
-  text-align:left;
+  padding: 20px;
+  text-align:justify;
   color:black;
   font-family: 'Poppins', sans-serif;
 
@@ -90,7 +90,7 @@ p {
   /* margin-right: auto; */
   /* margin-left: auto; */
   background:linear-gradient(to right,#ecadd0,#61b6f3) ;
-  font-size: 15px;
+  font-size: 1vw;
   color:black;
   font-family: 'Poppins', sans-serif;
   padding: 10px;

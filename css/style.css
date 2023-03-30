@@ -1,6 +1,6 @@
 
 body {
-  background:linear-gradient(to bottom, #aacbe2, #23395d,#6577B3); ;
+  background:linear-gradient(to bottom, #0a2667, #2f7496,#04275d); ;
   border: 10px ridge rgb(16, 40, 70);
   padding-top: 20px;
   padding-right: 50px;
@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-  border: 5px inset #164160;
-  color: rgb(16, 36, 42);
+  border: 5px inset #021d31;
+  color: rgb(0, 8, 10);
   text-align: center;
   text-shadow: 10%  rgb(45, 58, 81);
   font-size: 4vw;
@@ -40,25 +40,24 @@ p {
 
 .image1{
   padding: 10px;
-  height:400px;
+  height:300px;
   width: 40%;
   margin-left: 55%;
   margin-top:20px;
   margin-bottom:20px;
-  background-color: #D3756B ;
-  
+  background:linear-gradient(to bottom, #052463, #51909b,#032645); 
 }
 .image2{
   width:40%;
-  height: 300px;
+  height: 180px;
   padding: 10px;
   /* margin:auto; */
   margin-left: 55%;
   margin-top:20px;
   margin-bottom:20px;
   overflow: hidden;
-  background-color: #D3756B;
-  
+  background-color: #6dadde;
+  background:linear-gradient(to bottom, #0c2a67, #476f86,#032645); ;
 }
 
 
@@ -66,8 +65,8 @@ p {
   float: left;
   margin-top: 20px;
   margin-bottom:20px;
-  background:linear-gradient(to right,#74b1ed,#ef9dc7) ;
-  font-size: 1.5vw;
+  background:linear-gradient(to right,#79afc1,#1e2a51) ;
+  font-size: 1.1vw;
   color:black;
   font-family: 'Poppins', sans-serif;
   padding: 10px;
@@ -75,7 +74,7 @@ p {
   /* padding-bottom: 10px; */
   /* padding-left: 20px; */
   /* width: 300px; */
-  height: 400px;
+  height: 300px;
   width: 40%;
   clear: both;
 
@@ -88,8 +87,8 @@ p {
   margin-bottom: 20px;
   /* margin-right: auto; */
   /* margin-left: auto; */
-  background:linear-gradient(to right,#ecadd0,#61b6f3) ;
-  font-size: 1.5vw;
+  background:linear-gradient(to right,#8cc8e1,#093250) ;
+  font-size: 1.1vw;
   color:black;
   font-family: 'Poppins', sans-serif;
   padding: 10px;
@@ -97,7 +96,7 @@ p {
   /* padding-bottom: 10px; */
   /* padding-left: 20px; */
   width: 40%;
-  height: 300px;
+  height: 180px;
   overflow: hidden;
   clear: both;
 }

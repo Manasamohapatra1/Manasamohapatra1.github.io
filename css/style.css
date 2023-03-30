@@ -1,11 +1,12 @@
 
 body {
-  background:linear-gradient(to bottom, #aacbe2, #1e2652); ;
+  background:linear-gradient(to bottom, #aacbe2, #23395d,#6577B3); ;
   border: 10px ridge rgb(16, 40, 70);
   padding-top: 20px;
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+  
   
 }
 
@@ -14,7 +15,7 @@ h1 {
   color: rgb(16, 36, 42);
   text-align: center;
   text-shadow: 2px 2px rgb(45, 58, 81);
-  font-size: 45px;
+  font-size: 4vw;
   font-family: "Poppins";
 }
 
@@ -31,7 +32,10 @@ h1 {
    }
 
 p {
-  padding: 5%;
+  padding:10px;
+  /* padding-left: 5%; */
+  /* padding-top: 5%; */
+  /* padding-right: 5% ; */
   text-align:justify;
   color:black;
   font-family: 'Poppins', sans-serif;
@@ -104,7 +108,7 @@ p {
 }
 .fa-brands{
   color: #eef6f6;
-  bottom:0px;
+  /* bottom:0px; */
 } 
 
 .icon{
@@ -114,10 +118,7 @@ p {
     font-size: 25px;
     padding-top:10px;
     color:black;
-    word-spacing: 40px;
-      width:200px;
-      height:30px;
-      background-color: #D3756B ;
-      margin-top:100px; 
+    word-spacing: 30px;
+    margin-top:100px; 
       /* margin-left: 400px; */
 }

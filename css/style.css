@@ -6,8 +6,6 @@ body {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-  width: 1080px;
-  height: 1280;
   
 }
 
@@ -26,6 +24,9 @@ h1 {
    }
 .p2{font-size:35px;
     padding-left: 20px;
+    margin-bottom: 5px;
+    clear: both;
+    
     
    }
 
@@ -37,60 +38,84 @@ p {
 
 }
 
-img{
-  float:right;
-  width: 300px;
-  border: 5px solid rgb(20, 79, 97);
+.image1{
   padding: 10px;
-  margin-right:70px;
-  margin-top:10px;
-  margin-bottom:100px;
+  height:300px;
+  width: 40%;
+  /* padding: 10px; */
+  margin-left: 55%;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color: #D3756B ;
+  
+}
+.image2{
+  width:40%;
+  height: 180px;
+  padding: 10px;
+  /* margin:auto; */
+  margin-left: 55%;
+  margin-top:20px;
+  margin-bottom:20px;
+  overflow: hidden;
+  background-color: #D3756B;
+  
 }
 
 
-
 .div1{
-
-  margin-top: 0px;
-  margin-bottom: auto;
-  margin-right: auto;
-  margin-left: 70px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom:20px;
   background:linear-gradient(to right,#74b1ed,#ef9dc7) ;
   font-size: 15px;
   color:black;
   font-family: 'Poppins', sans-serif;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  width: 300px;
+  padding: 10px;
+  /* padding-right: 30px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 20px; */
+  /* width: 300px; */
   height: 300px;
+  width: 40%;
+
 }
 
-.div2{margin-top: 1px;
-  margin-bottom: auto;
-  margin-right: auto;
-  margin-left: 70px;
+.div2{
+  
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
   background:linear-gradient(to right,#ecadd0,#61b6f3) ;
   font-size: 15px;
   color:black;
   font-family: 'Poppins', sans-serif;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-  width: 300px;
-  height: 200px;
+  padding: 10px;
+  /* padding-right: 10px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 20px; */
+  width: 40%;
+  height: 180px;
+  overflow: hidden;
 }
 .fa-brands{
   color: #eef6f6;
+  bottom:0px;
 } 
 
 .icon{
-   font-size: 30px;
-   color: rgb(14, 13, 13);
-   padding-top:70px;
-   word-spacing: 10px;
-   margin-left:450px;
-
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding-top:10px;
+    color:black;
+    word-spacing: 40px;
+      width:200px;
+      height:30px;
+      background-color: #D3756B ;
+      margin-top:100px; 
+      /* margin-left: 400px; */
 }

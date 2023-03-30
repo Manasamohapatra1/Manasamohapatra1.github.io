@@ -16,8 +16,8 @@ h1 {
   color: rgb(16, 36, 42);
   text-align: center;
   text-shadow: 2px 2px rgb(45, 58, 81);
-  font-family: "Trirong", serif;
   font-size: 45px;
+  font-family: "Poppins";
 }
 
 .p1{font-size:35px;
@@ -33,7 +33,7 @@ p {
   
   text-align:left;
   color:black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -56,9 +56,9 @@ img{
   margin-right: auto;
   margin-left: 70px;
   background:linear-gradient(to right,#74b1ed,#ef9dc7) ;
-  font-size: 20px;
+  font-size: 15px;
   color:black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -72,9 +72,9 @@ img{
   margin-right: auto;
   margin-left: 70px;
   background:linear-gradient(to right,#ecadd0,#61b6f3) ;
-  font-size: 20px;
+  font-size: 15px;
   color:black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 50px;
@@ -83,7 +83,7 @@ img{
   height: 200px;
 }
 .fa-brands{
-  color: #060707;
+  color: #eef6f6;
 } 
 
 .icon{

@@ -1,29 +1,31 @@
 
 body {
   background:linear-gradient(to bottom, #e1e7ee,rgb(8, 96, 150));
-  border: 10px ridge rgb(16, 40, 70);
-  padding-top: 20px;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  padding-left: 50px;
+  border: 2vw ridge rgb(16, 40, 70);
+  padding:5%;
+  max-width:100%;
 }
 
 h1 {
-  border: 5px inset #021d31;
+  border: 1vw inset #021d31;
   color: rgb(0, 8, 10);
   text-align: center;
-  text-shadow :1px 1px 1px #201D1D;
+  text-shadow :0.1vw 0.1vw 0.1vw #201D1D;
   font-size: 3.8vw;
   font-family: "Poppins";
 }
 
 .container{
     display:flex;
+    max-width:100%;
 }
 
 h3{
     display:block;
-   }
+    padding: 5%;
+    margin:auto;
+    font-size: 3vw;
+}
 
 p {
   padding:auto;
@@ -36,7 +38,7 @@ p {
 
 img{
   width:40%;
-  padding: 10px;
+  padding: 3%;
   margin:auto;
   overflow: hidden;
   background-color: #6dadde;
@@ -45,33 +47,30 @@ img{
 
 
 .div1{
-  float: left;
   margin:auto;
   background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
-  font-size: 1.1vw;
+  font-size: 1.4vw;
   color:black;
   font-family: 'Poppins', sans-serif;
-  padding: 10px;
+  padding: 3%;
   width: 40%;
   /*clear: both;*/
   background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
 }
 
 .div2{
-  float: left;
   margin:auto;
   background:linear-gradient(to right,#cae6f4,#6fa0e9) ;
-  font-size: 1.1vw;
+  font-size: 1.4vw;
   color:black;
   font-family: 'Poppins', sans-serif;
-  padding: 10px;
+  padding:3%;
   width: 40%;
   overflow: hidden;
   clear: both;
 }
 .fa-brands{
   color: #f3f5f9;
-  bottom:0px;
 } 
 
 .icon{
@@ -79,119 +78,10 @@ img{
     margin: auto;
     text-align: center;
     font-size: 2vw;
-    padding-top:10px;
-    word-spacing: 30px;
+    word-spacing:2vw;
     margin-top:10%;
-      /* margin-left: 400px; */
   
       
 }
-@media screen and (max-width: 600px) {
-    body {
-      padding:20px;
-    }
-}
-/*    .p1{
-        font-size:2.5vw;
-        padding-left: 10px;
-        margin-bottom: 0px;
-        padding-bottom:0px;
-    }
-    .p2{
-        font-size:2.5vw;
-        padding-left: 10px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        padding-bottom:0px;
-        clear: both;
-    }
-
-    p{
-            padding:5px;
-            text-align:justify;
-            color:black;
-            font-family: 'Poppins', sans-serif;
-
-    }
-    h1 {
-        border: 5px inset #021d31;
-        color: rgb(0, 8, 10);
-        text-align: center;
-        text-shadow :#6dadde;
-        font-size: 3vw;
-        font-family: "Poppins";
-    }
-    .div1{
-        float: left;
-        margin-top: 0px;
-        margin-bottom:5px;
-        font-size: 1.2vw;
-        color:black;
-        background:linear-gradient(to right,#cadbe3,#5795f2) ;
-        font-family: 'Poppins', sans-serif;
-        padding: 6px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        width: 300px;
-        height: 120px;
-        width: 80%;
-        overflow: hidden;
-        clear: both;
-    }
-
-    .image1{
-          padding: 6px;
-          height:120px;
-          width: 80%;
-          margin-left: 55%;
-          margin-top:0px;
-          margin-bottom:5px;
-          overflow: hidden;
-          background:linear-gradient(to right,#e1e7ea,#5291f0) ;
-    }
-
-    .div2{
-            float: left;
-            margin-top: 0px;
-            margin-bottom: 5px;
-            margin-right: auto;
-            margin-left: auto;
-            background:linear-gradient(to right,#e8edee,#6ba0e0) ;
-            font-size: 1.2vw;
-            color:black;
-            font-family: 'Poppins', sans-serif;
-            padding: 6px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 20px;
-            width: 40%;
-            height: 80px;
-            overflow: hidden;
-            clear: both;
-            background:linear-gradient(to right,#c1d7e2,#76a7ef) ;
-    }
-    .image2{
-            width:40%;
-            height: 80px;
-            padding: 6px;
-            margin:auto;
-            margin-left: 55%;
-            margin-top:0px;
-            margin-bottom:5px;
-            overflow: hidden;
-            background:linear-gradient(to right,#e1e7ea,#86a8dd) ;
-    }
-    .icon{
-            clear: both;
-            margin: auto;
-            text-align: center;
-            font-size: 2vw;
-            padding-top:5px;
-            word-spacing: 15px;
-            margin-top:40px;
-            margin-bottom:0px;
-    }*/
-      
-      
-}
+/*@media screen and (max-width: 600px) {
+}*/

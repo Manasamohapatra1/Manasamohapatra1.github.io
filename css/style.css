@@ -129,10 +129,10 @@ p {
     margin-top: 20px;
     margin-bottom:20px;
     background:linear-gradient(to right,white,#325be4) ;
-    font-size: 2vw;
+    font-size: 1.3vw;
     color:black;
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    padding: 5px;
     /* padding-right: 30px; */
     /* padding-bottom: 10px; */
     /* padding-left: 20px; */
@@ -142,7 +142,7 @@ p {
     clear: both;}
 
     .image1{
-      padding: 10px;
+      padding: 5px;
       height:100px;
       width: 40%;
       margin-left: 55%;
@@ -150,5 +150,38 @@ p {
       margin-bottom:20px;
       background:linear-gradient(to bottom, #d9dee7, #51909b,#6eb5f3); } 
 
+      .div2{
   
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+        background:linear-gradient(to right,#edf0f1,#73a4f9) ;
+        font-size: 1.2vw;
+        color:black;
+        font-family: 'Poppins', sans-serif;
+        padding: 5px;
+        /* padding-right: 10px; */
+        /* padding-bottom: 10px; */
+        /* padding-left: 20px; */
+        width: 40%;
+        height: 50px;
+        overflow: hidden;
+        clear: both;
+      }
+      .image2{
+        width:40%;
+        height: 50px;
+        padding: 5px;
+        /* margin:auto; */
+        margin-left: 55%;
+        margin-top:20px;
+        margin-bottom:20px;
+        overflow: hidden;
+        background-color: #6dadde;
+        background:linear-gradient(to bottom, #0c2a67, #476f86,#032645); ;
+      }
+      
+      
 }

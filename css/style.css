@@ -1,6 +1,6 @@
 
 body {
-  background:linear-gradient(to bottom, #a7c2e1); ;
+  background:linear-gradient(to bottom, #e1e7ee,rgb(8, 96, 125)); 
   border: 10px ridge rgb(16, 40, 70);
   padding-top: 20px;
   padding-right: 50px;
@@ -16,7 +16,6 @@ h1 {
   border: 5px inset #021d31;
   color: rgb(0, 8, 10);
   text-align: center;
-  text-shadow: 100px,100px  rgb(44, 80, 142);
   font-size: 3.8vw;
   font-family: "Poppins";
 }
@@ -80,7 +79,7 @@ p {
   height: 300px;
   width: 40%;
   clear: both;
-  background:linear-gradient(to right,#e1e7ea,#74a3ea) ;
+  background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
 }
 
 .div2{
@@ -90,7 +89,7 @@ p {
   margin-bottom: 20px;
   /* margin-right: auto; */
   /* margin-left: auto; */
-  background:linear-gradient(to right,#e1e7ea,#6fa0e9) ;
+  background:linear-gradient(to right,#cae6f4,#6fa0e9) ;
   font-size: 1.1vw;
   color:black;
   font-family: 'Poppins', sans-serif;
@@ -104,7 +103,7 @@ p {
   clear: both;
 }
 .fa-brands{
-  color: #01040d;
+  color: #f3f5f9;
   bottom:0px;
 } 
 
@@ -150,7 +149,7 @@ p {
     margin-bottom:10px;
     font-size: 1.2vw;
     color:black;
-    background:linear-gradient(to right,#e1e7ea,#5795f2) ;
+    background:linear-gradient(to right,#cadbe3,#5795f2) ;
     font-family: 'Poppins', sans-serif;
     padding: 8px;
     /* padding-right: 30px; */
@@ -189,7 +188,7 @@ p {
         height: 80px;
         overflow: hidden;
         clear: both;
-        background:linear-gradient(to right,#e1e7ea,#76a7ef) ;
+        background:linear-gradient(to right,#c1d7e2,#76a7ef) ;
       }
       .image2{
         width:40%;
@@ -202,6 +201,14 @@ p {
         overflow: hidden;
         background:linear-gradient(to right,#e1e7ea,#86a8dd) ;;
       }
+      .icon{
+        clear: both;
+        margin: auto;
+        text-align: center;
+        font-size: 2vw;
+        padding-top:10px;
+        word-spacing: 15px;
+        margin-top:80px; }
       
       
 }

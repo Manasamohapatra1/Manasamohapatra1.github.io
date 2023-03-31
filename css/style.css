@@ -139,7 +139,16 @@ p {
     /* width: 300px; */
     height: 100px;
     width: 40%;
-    clear: both;
+    clear: both;}
+
+    .image1{
+      padding: 10px;
+      height:100px;
+      width: 40%;
+      margin-left: 55%;
+      margin-top:20px;
+      margin-bottom:20px;
+      background:linear-gradient(to bottom, #d9dee7, #51909b,#6eb5f3); } 
 
   
 }

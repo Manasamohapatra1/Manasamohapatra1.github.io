@@ -1,6 +1,6 @@
 
 body {
-  background:linear-gradient(to bottom, #313131, #323333,#353637); ;
+  background:linear-gradient(to bottom, #d66b6b, #323333,#353637); ;
   border: 10px ridge rgb(16, 40, 70);
   padding-top: 20px;
   padding-right: 50px;
@@ -124,6 +124,22 @@ p {
     font-size: 3vw;
     font-family: "Poppins";
   }
+  .div1{
+    float: left;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background:linear-gradient(to right,white,#325be4) ;
+    font-size: 2vw;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    /* padding-right: 30px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 20px; */
+    /* width: 300px; */
+    height: 100px;
+    width: 40%;
+    clear: both;
 
   
 }

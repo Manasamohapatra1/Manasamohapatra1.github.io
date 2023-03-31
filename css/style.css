@@ -1,6 +1,6 @@
 
 body {
-  background:linear-gradient(to bottom, #d66b6b, #323333,#353637); ;
+  background:linear-gradient(to bottom, #a7c2e1, #51ebeb,#032a52); ;
   border: 10px ridge rgb(16, 40, 70);
   padding-top: 20px;
   padding-right: 50px;
@@ -45,7 +45,7 @@ p {
   margin-left: 55%;
   margin-top:20px;
   margin-bottom:20px;
-  background:linear-gradient(to bottom, #d9dee7, #51909b,#6eb5f3); 
+  background:linear-gradient(to bottom, #ece3e9, #f07fb6,#badaf6); 
 }
 .image2{
   width:40%;
@@ -57,7 +57,7 @@ p {
   margin-bottom:20px;
   overflow: hidden;
   background-color: #6dadde;
-  background:linear-gradient(to bottom, #0c2a67, #476f86,#032645); ;
+  background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); ;
 }
 
 
@@ -65,7 +65,7 @@ p {
   float: left;
   margin-top: 20px;
   margin-bottom:20px;
-  background:linear-gradient(to right,white,#325be4) ;
+  background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
   font-size: 1.1vw;
   color:black;
   font-family: 'Poppins', sans-serif;
@@ -87,7 +87,7 @@ p {
   margin-bottom: 20px;
   /* margin-right: auto; */
   /* margin-left: auto; */
-  background:linear-gradient(to right,#edf0f1,#73a4f9) ;
+  background:linear-gradient(to right,#83d5f0,#eb9bc6) ;
   font-size: 1.1vw;
   color:black;
   font-family: 'Poppins', sans-serif;
@@ -114,6 +114,7 @@ p {
     word-spacing: 30px;
     margin-top:80px; 
       /* margin-left: 400px; */
+      
 }
 @media screen and (max-width: 600px) {
   h1 {
@@ -128,27 +129,27 @@ p {
     float: left;
     margin-top: 20px;
     margin-bottom:20px;
-    background:linear-gradient(to right,white,#325be4) ;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     color:black;
+    background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
     font-family: 'Poppins', sans-serif;
-    padding: 5px;
+    padding: 8px;
     /* padding-right: 30px; */
     /* padding-bottom: 10px; */
     /* padding-left: 20px; */
     /* width: 300px; */
-    height: 100px;
+    height: 120px;
     width: 40%;
     clear: both;}
 
     .image1{
-      padding: 5px;
-      height:100px;
+      padding: 8px;
+      height:120px;
       width: 40%;
       margin-left: 55%;
       margin-top:20px;
       margin-bottom:20px;
-      background:linear-gradient(to bottom, #d9dee7, #51909b,#6eb5f3); } 
+      background:linear-gradient(to bottom, #56bcd8, #023842,#084274); } 
 
       .div2{
   
@@ -157,29 +158,28 @@ p {
         margin-bottom: 20px;
         /* margin-right: auto; */
         /* margin-left: auto; */
-        background:linear-gradient(to right,#edf0f1,#73a4f9) ;
+        background:linear-gradient(to right,#83d5f0,#eb9bc6) ;
         font-size: 1.2vw;
         color:black;
         font-family: 'Poppins', sans-serif;
-        padding: 5px;
+        padding: 9px;
         /* padding-right: 10px; */
         /* padding-bottom: 10px; */
         /* padding-left: 20px; */
         width: 40%;
-        height: 50px;
+        height: 80px;
         overflow: hidden;
         clear: both;
       }
       .image2{
         width:40%;
-        height: 50px;
-        padding: 5px;
+        height: 80px;
+        padding: 9px;
         /* margin:auto; */
         margin-left: 55%;
         margin-top:20px;
         margin-bottom:20px;
         overflow: hidden;
-        background-color: #6dadde;
         background:linear-gradient(to bottom, #0c2a67, #476f86,#032645); ;
       }
       

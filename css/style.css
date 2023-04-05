@@ -1,7 +1,7 @@
 
 body {
   background:linear-gradient(to bottom, #e1e7ee,rgb(8, 96, 150));
-  border: 2vw ridge rgb(16, 40, 70);
+  /* border: 2vw ridge rgb(16, 40, 70); */
   padding:5%;
   max-width:100%;
 }
@@ -19,10 +19,19 @@ h1 {
     display:flex;
     max-width:100%;
 }
+.wrapper1{
+  display:flex;
+  max-width:100%;
+}
 
 .flex-direction{
   flex-direction:row;
+  
 }
+
+/* .flex-direction1{ */
+ /* flex-direction:column; */
+/* } */
 
 h3{
     padding: 5%;
@@ -40,9 +49,9 @@ p {
 }
 
 
-img{
+img{border-radius: 10%;
   width:40%;
-  padding: 3%;
+  padding: 2%;
   margin:auto;
   overflow: hidden;
   background-color: #6dadde;
@@ -51,21 +60,32 @@ img{
 
 
 .div1{
+  border-radius: 10%;
   margin:auto;
   background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
   padding: 3%;
   width: 40%;
-  /*clear: both;*/
+  clear: both;
   background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
 }
 
 .div2{
+  border-radius: 10%;
   margin:auto;
   background:linear-gradient(to right,#cae6f4,#6fa0e9) ;
   padding:3%;
   width: 40%;
   overflow: hidden;
   clear: both;
+}
+.div3{
+  border-radius: 5%;
+  margin:5%;
+  background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
+  padding: 3%;
+  width: 85%;
+  /*clear: both;*/
+  background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
 }
 .fa-brands{
   color: #f3f5f9;
@@ -86,10 +106,12 @@ img{
   flex-direction:column;
 }
 img{
+    align-self: center;
     width:85%;
     margin:2%;
 }
 .div1{
+    align-self: center;
     width:85%;
     margin:2%;
 }
@@ -97,4 +119,10 @@ img{
     width:85%;
     margin:2%;
 }
+.div3{
+  align-self: center;
+  width:85%;
+  margin:2%;
+}
+
 }

@@ -1,0 +1,61 @@
+body {
+    background:linear-gradient(to bottom, #1db7e7,rgb(64, 62, 188));
+    padding:5%;
+    max-width:100%;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+  }
+  .message{
+    width: 45%;
+    align-self: center;
+    background:linear-gradient(to bottom, #e9c9e9,rgb(66, 171, 236));
+    padding: 5%;
+
+
+  }
+  .read_more{
+    margin: 0px 15px;
+    display: inline-block;
+    color: #100f0f;
+    background-color: rgb(234, 249, 251);
+    border: none;
+    border-radius: 5px;
+    padding:2%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.08s ease-in;
+  }
+
+  p {
+    padding:auto;
+    text-align:justify;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+  
+  }
+  @media screen and (max-width: 800px){
+    .content{
+        flex-direction:column;
+        height:65%
+        
+      }
+    .message{
+        align-self: center;
+        width:85%;
+        height: 65%;
+        margin:2%;
+        
+    }  
+    p {
+        padding:auto;
+        text-align:justify;
+        color:black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.2vw;}
+    
+        .read_more{
+            margin: 0px 2px}    
+    }

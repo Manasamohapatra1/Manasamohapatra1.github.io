@@ -116,13 +116,14 @@ img{
     margin:2%;
 }
 .div2{
+    align-self: center;
     width:85%;
     margin:2%;
 }
 .div3{
-  align-self: center;
-  width:85%;
-  margin:2%;
+    align-self: center;
+    width:85%;
+    margin:2%;
 }
 
 }

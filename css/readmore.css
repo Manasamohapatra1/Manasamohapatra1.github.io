@@ -1,61 +1,129 @@
+
 body {
-    background:linear-gradient(to bottom, #1db7e7,rgb(64, 62, 188));
-    padding:5%;
+  background:linear-gradient(to bottom, #e1e7ee,rgb(8, 96, 150));
+  /* border: 2vw ridge rgb(16, 40, 70); */
+  padding:5%;
+  max-width:100%;
+}
+
+h1 {
+  border: 1vw inset #021d31;
+  color: rgb(0, 8, 10);
+  text-align: center;
+  text-shadow :0.1vw 0.1vw 0.1vw #201D1D;
+  font-size: 3.8vw;
+  font-family: "Poppins";
+}
+
+.wrapper{
+    display:flex;
     max-width:100%;
-  }
-  .content{
-    display: flex;
-    align-items: center;
-  }
-  .message{
-    width: 45%;
-    align-self: center;
-    background:linear-gradient(to bottom, #e9c9e9,rgb(66, 171, 236));
-    padding: 5%;
+}
+.wrapper1{
+  display:flex;
+  max-width:100%;
+}
 
-
-  }
-  .read_more{
-    margin: 0px 15px;
-    display: inline-block;
-    color: #100f0f;
-    background-color: rgb(234, 249, 251);
-    border: none;
-    border-radius: 5px;
-    padding:2%;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.08s ease-in;
-  }
-
-  p {
-    padding:auto;
-    text-align:justify;
-    color:black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5vw;
+.flex-direction{
+  flex-direction:row;
   
-  }
-  @media screen and (max-width: 800px){
-    .content{
-        flex-direction:column;
-        height:65%
-        
-      }
-    .message{
-        align-self: center;
-        width:85%;
-        height: 65%;
-        margin:2%;
-        
-    }  
-    p {
-        padding:auto;
-        text-align:justify;
-        color:black;
-        font-family: 'Poppins', sans-serif;
-        font-size: 3.2vw;}
-    
-        .read_more{
-            margin: 0px 2px}    
-    }
+}
+
+/* .flex-direction1{ */
+ /* flex-direction:column; */
+/* } */
+
+h3{
+    padding: 5%;
+    margin:auto;
+    font-size: 3vw;
+}
+
+p {
+  padding:auto;
+  text-align:justify;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5vw;
+
+}
+
+
+img{border-radius: 10%;
+  width:40%;
+  padding: 2%;
+  margin:auto;
+  overflow: hidden;
+  background-color: #6dadde;
+  background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); ;
+}
+
+
+.div1{
+  border-radius: 10%;
+  margin:auto;
+  background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
+  padding: 3%;
+  width: 40%;
+  clear: both;
+  background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
+}
+
+.div2{
+  border-radius: 10%;
+  margin:auto;
+  background:linear-gradient(to right,#cae6f4,#6fa0e9) ;
+  padding:3%;
+  width: 40%;
+  overflow: hidden;
+  clear: both;
+}
+.div3{
+  border-radius: 5%;
+  margin:5%;
+  background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
+  padding: 3%;
+  width: 85%;
+  /*clear: both;*/
+  background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
+}
+.fa-brands{
+  color: #f3f5f9;
+} 
+
+.icon{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    word-spacing:2vw;
+    margin-top:10%;
+  
+      
+}
+@media screen and (max-width: 800px) {
+.flex-direction{
+  flex-direction:column;
+}
+img{
+    align-self: center;
+    width:85%;
+    margin:2%;
+}
+.div1{
+    align-self: center;
+    width:85%;
+    margin:2%;
+}
+.div2{
+    align-self: center;
+    width:85%;
+    margin:2%;
+}
+.div3{
+    align-self: center;
+    width:85%;
+    margin:2%;
+}
+
+}

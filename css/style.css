@@ -1,19 +1,39 @@
 body {
-    background:linear-gradient(to bottom, #1db7e7,rgb(64, 62, 188));
+    background:linear-gradient(to bottom, #e5ecec,rgb(151, 172, 235));
     padding:5%;
     max-width:100%;
   }
-  .content{
-    display: flex;
-    align-items: center;
+  /* .content{ */
+    /* display: flex; */
+    /* align-items: center; */
+  /* } */
+  .wrapper{
+    display:flex;
+    max-width:100%;}
+
+  .flex-direction{
+    flex-direction:row;
+    
+    
   }
   .message{
-    width: 45%;
-    align-self: center;
+    width: 40%;
+    /* align-self: center; */
+    margin:auto;
     background:linear-gradient(to bottom, #e9c9e9,rgb(66, 171, 236));
-    padding: 5%;
+    padding: 4%;
+    clear:both;
 
 
+  }
+  img{border-radius: 10%;
+    width:17%;
+    padding: 1%;
+    margin:auto;
+    overflow: hidden;
+    background-color: #6dadde;
+    background:linear-gradient(to bottom, #c6d1e6, #8ccef4,#ef9ee9); 
+    height: 20%;
   }
   .read_more{
     margin: 0px 15px;
@@ -37,11 +57,16 @@ body {
   
   }
   @media screen and (max-width: 800px){
-    .content{
+    .flex-direction{
         flex-direction:column;
-        height:65%
         
       }
+      img{
+        align-self: center;
+        width:85%;
+        margin:2%;
+    }
+      
     .message{
         align-self: center;
         width:85%;

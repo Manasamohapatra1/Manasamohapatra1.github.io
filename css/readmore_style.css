@@ -1,14 +1,14 @@
 
 body {
-  background:linear-gradient(to bottom, #e1e7ee,rgb(8, 96, 150));
+  background:#022e54;
   /* border: 2vw ridge rgb(16, 40, 70); */
   padding:5%;
   max-width:100%;
 }
 
 h1 {
-  border: 1vw inset #021d31;
-  color: rgb(0, 8, 10);
+  /* border: 1vw inset #8b55ba; */
+  color: rgb(194, 238, 228);
   text-align: center;
   text-shadow :0.1vw 0.1vw 0.1vw #201D1D;
   font-size: 3.8vw;
@@ -26,6 +26,7 @@ h1 {
 
 .flex-direction{
   flex-direction:row;
+  padding: 10px;
   
 }
 
@@ -34,9 +35,11 @@ h1 {
 /* } */
 
 h3{
-    padding: 5%;
+    padding: 2%;
     margin:auto;
-    font-size: 3vw;
+    font-size: 2vw;
+    color: #ed9cde;
+    font-family:'Poppins', sans-serif ;
 }
 
 p {
@@ -44,18 +47,18 @@ p {
   text-align:justify;
   color:black;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 
 }
 
 
-img{border-radius: 10%;
+img{border-radius: 15%;
   width:40%;
-  padding: 2%;
+  padding: 4%;
   margin:auto;
   overflow: hidden;
-  background-color: #6dadde;
-  background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); ;
+  /* background-color: #6dadde; */
+  /* background:linear-gradient(to bottom, #7ea5f3, #67b1dc,#3298f2); ; */
 }
 
 
@@ -63,7 +66,7 @@ img{border-radius: 10%;
   border-radius: 10%;
   margin:auto;
   background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
-  padding: 1%;
+  padding: 3%;
   width: 40%;
   clear: both;
   background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
@@ -101,10 +104,19 @@ img{border-radius: 10%;
   
       
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 .flex-direction{
   flex-direction:column;
 }
+p {
+  padding:2%;
+  text-align:justify;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8vw;
+
+}
+
 img{
     align-self: center;
     width:85%;
